@@ -10,7 +10,7 @@ shows current cache status
 turn it off  
 
 # Additional info
-Tested on SATA HDD in AHCI mode.  
+Tested on SATA HDD in AHCI mode on Win10 x64
 x64 build provided just for case, 32-bit binary works fine on x64 windows.
 
 # Developer tools
