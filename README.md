@@ -1,17 +1,19 @@
 # DiskCacheControl
-This is tiny console windows utility with only one function: controls disk onboard write cache.
+This is tiny console utility for Windows® with only one function: controls disk onboard write caching status. No reboot required.
 
 Usage examples:  
 **dcc.exe C: on**  
-turns on onboard disk cache of HDD on which resides C disk  
+turns on onboard disk caching of HDD on which resides C disk  
 **dcc.exe C:**  
 shows current cache status  
 **dcc.exe C: off**  
-turn it off  
+turn it off back  
+"on" and "off" are case-sensitive  
+exit code 0 means success or already in desired state  
 
 # System requirements
 Tested on SATA HDD in AHCI mode on Win10 x64 but should work on other versions.
-x64 build provided just in case, 32-bit binary works fine on x64 windows.
+x64 build provided just in case, 32-bit binary works fine on x64 Windows®.
 
 # Development tools
 Visual Studio Express 2015 (14.0) for Desktop
